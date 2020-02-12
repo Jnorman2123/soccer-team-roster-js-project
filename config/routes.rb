@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :trophies
   resources :players
   resources :teams
   resources :leagues
