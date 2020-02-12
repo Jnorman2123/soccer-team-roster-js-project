@@ -5,6 +5,8 @@ class LeaguesController < ApplicationController
   # GET /leagues.json
   def index
     @leagues = League.all
+    
+    render  json: @leagues
   end
 
   # GET /leagues/1
