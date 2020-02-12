@@ -8,3 +8,6 @@
 
 leagues = League.create([{name: 'English Premier League', logo: 'https://a1.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F23.png', country: 'England', division: 1}, 
     {name: 'LaLiga Santander', logo: 'https://upload.wikimedia.org/wikipedia/en/3/35/La_Liga.png', country: 'Spain', division: 1}])
+
+teams = Team.create([{name: 'Chelsea F.C.', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/180px-Chelsea_FC.svg.png', nickname: 'The Blues, The Pensioners', league_id: 1, stadium: 'Stamford Bridge', manager: 'Frank Lampard', year_founded: 1905},
+    {name: 'Futbol Club Barcelona', logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/180px-FC_Barcelona_%28crest%29.svg.png', nickname: 'Barca, Blaugrana', league_id: 2, stadium: 'Camp Nou', manager: 'Quique Setien', year_founded: 1899}])
